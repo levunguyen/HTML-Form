@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>Language:</td>
+                <td>
+                    <input type="checkbox" name="lang">Vietnamese
+                    <input type="checkbox" name="lang">English
+                </td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Feedback:</td>
+                <td>
+                   <textarea rows="5" cols="10" name="feedback"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td>
+                    <select name="age">
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Avatar:</td>
+                <td>
+                    <input type="file" name="avatar" accept="image/*">
+                </td>
+            </tr>
+            <tr>
+                <td>Action:</td>
+                <td>
+                    <input type="submit" value="Save">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
